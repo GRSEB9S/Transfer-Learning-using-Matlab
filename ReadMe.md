@@ -29,9 +29,12 @@ training images.
 ## In this implementation, two major steps are present: 
 
 **Step 1:** The last three layers : "Fully-Connected-Layer", "SoftMax" and "Classification Predictions" are removed.
+
 **Step 2:** New three layers : "Fully-Connected-Layer", "SoftMax" and "Classification Predictions" 
 		are added but based on number of classes in our dataset.
+
 **Step 3:** Connect Original Network's "Pooling-Layer" to newly created layers in Step 2
+
 
 The difference in the using different neural network implementation (as given above) is defining the neural network model and 
 the identification of these layers and replacing them.
